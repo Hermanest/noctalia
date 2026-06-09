@@ -44,7 +44,7 @@ detect_mode() {
 
 apply_lua() {
   local include_line='-- For Noctalia Color templates
-require("noctalia")'
+require("noctalia").apply_theme()'
 
   mkdir -p "$config_dir"
 
